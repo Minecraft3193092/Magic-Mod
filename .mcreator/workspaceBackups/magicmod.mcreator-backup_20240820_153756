@@ -1,0 +1,2600 @@
+{
+  "mod_elements": [
+    {
+      "name": "Magicenf",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicenf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/enchantment/MagicenfEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Magictool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magictool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagictoolItem.java",
+          "src/main/resources/assets/magicmod/models/item/magictool.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic1ew",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_1ew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/worldgen/configured_feature/magic_1ew_tree.json",
+          "src/main/resources/data/magicmod/worldgen/biome/magic_1ew.json",
+          "src/main/resources/data/magicmod/worldgen/placed_feature/magic_1ew_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/blockstates/magic_stone.json",
+          "src/main/resources/data/magicmod/worldgen/placed_feature/magic_stone.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicStoneBlock.java",
+          "src/main/resources/assets/magicmod/models/block/magic_stone.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_stone.json",
+          "src/main/resources/data/magicmod/worldgen/configured_feature/magic_stone.json",
+          "src/main/resources/data/magicmod/forge/biome_modifier/magic_stone_biome_modifier.json",
+          "src/main/resources/assets/magicmod/models/item/magic_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "SeMagicIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "se_magic_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/SeMagicIngotItem.java",
+          "src/main/resources/assets/magicmod/models/item/se_magic_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Semagicingot1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semagicingot_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/semagicingot_1.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_sword.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Magicsword1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicsword_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magicsword_1.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_ingot.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/forge/biome_modifier/magic_ore_biome_modifier.json",
+          "src/main/resources/data/magicmod/worldgen/configured_feature/magic_ore.json",
+          "src/main/resources/assets/magicmod/models/block/magic_ore.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_ore.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_ore.json",
+          "src/main/resources/data/magicmod/worldgen/placed_feature/magic_ore.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicOreBlock.java",
+          "src/main/resources/assets/magicmod/models/item/magic_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_block.json",
+          "src/main/resources/assets/magicmod/models/item/magic_block.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_block.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicBlockBlock.java",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicPickaxeItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicAxeItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicShovelItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicHoeItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_armor_boots.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicArmorItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_armor_helmet.json",
+          "src/main/resources/assets/magicmod/models/item/magic_armor_chestplate.json",
+          "src/main/resources/assets/magicmod/models/item/magic_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_wood.json",
+          "src/main/resources/assets/magicmod/models/block/magic_wood.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_wood.json",
+          "src/main/resources/assets/magicmod/models/item/magic_wood.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/blockstates/magic_log.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_log.json",
+          "src/main/resources/assets/magicmod/models/block/magic_log.json",
+          "src/main/resources/assets/magicmod/models/item/magic_log.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/block/MagicPlanksBlock.java",
+          "src/main/resources/assets/magicmod/models/block/magic_planks.json",
+          "src/main/resources/assets/magicmod/models/item/magic_planks.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_planks.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_leaves.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicLeavesBlock.java",
+          "src/main/resources/assets/magicmod/blockstates/magic_leaves.json",
+          "src/main/resources/assets/magicmod/models/item/magic_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_stairs.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_stairs.json",
+          "src/main/resources/assets/magicmod/models/block/magic_stairs_inner.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_stairs.json",
+          "src/main/resources/assets/magicmod/models/block/magic_stairs_outer.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicStairsBlock.java",
+          "src/main/resources/assets/magicmod/models/item/magic_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_slab_full.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicSlabBlock.java",
+          "src/main/resources/assets/magicmod/models/block/magic_slab_top.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_slab.json",
+          "src/main/resources/assets/magicmod/models/block/magic_slab.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_slab.json",
+          "src/main/resources/assets/magicmod/models/item/magic_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_fence.json",
+          "src/main/resources/assets/magicmod/models/block/magic_fence.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_fence.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicFenceBlock.java",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_fence.json",
+          "src/main/resources/assets/magicmod/models/block/magic_fence_post.json",
+          "src/main/resources/assets/magicmod/models/block/magic_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_fence_gate.json",
+          "src/main/resources/assets/magicmod/models/block/magic_fence_gate_wall_open.json",
+          "src/main/resources/assets/magicmod/models/item/magic_fence_gate.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicFenceGateBlock.java",
+          "src/main/resources/assets/magicmod/models/block/magic_fence_gate.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_fence_gate.json",
+          "src/main/resources/assets/magicmod/models/block/magic_fence_gate_wall.json",
+          "src/main/resources/assets/magicmod/models/block/magic_fence_gate_open.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_pressure_plate_down.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_pressure_plate.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicPressurePlateBlock.java",
+          "src/main/resources/assets/magicmod/models/block/magic_pressure_plate.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_pressure_plate.json",
+          "src/main/resources/assets/magicmod/models/item/magic_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_button_inventory.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicButtonBlock.java",
+          "src/main/resources/assets/magicmod/models/item/magic_button.json",
+          "src/main/resources/assets/magicmod/models/block/magic_button.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_button.json",
+          "src/main/resources/assets/magicmod/models/block/magic_button_pressed.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_button.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicWater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_water",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/mcreator/magicmod/fluid/types/MagicWaterFluidType.java",
+          "src/main/java/net/mcreator/magicmod/item/MagicWaterItem.java",
+          "src/main/resources/assets/magicmod/blockstates/magic_water.json",
+          "src/main/resources/assets/magicmod/models/block/magic_water.json",
+          "src/main/java/net/mcreator/magicmod/fluid/MagicWaterFluid.java",
+          "src/main/java/net/mcreator/magicmod/block/MagicWaterBlock.java",
+          "src/main/resources/assets/magicmod/models/item/magic_water_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicGlass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_glass.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicGlassBlock.java",
+          "src/main/resources/assets/magicmod/blockstates/magic_glass.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_glass.json",
+          "src/main/resources/assets/magicmod/models/block/magic_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "IronedMagicIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_iron_ingot.json",
+          "src/main/java/net/mcreator/magicmod/item/IronedMagicIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_flower.json",
+          "src/main/resources/assets/magicmod/models/block/magic_flower.json",
+          "src/main/resources/data/magicmod/worldgen/placed_feature/magic_flower.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_flower.json",
+          "src/main/resources/data/magicmod/forge/biome_modifier/magic_flower_biome_modifier.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicFlowerBlock.java",
+          "src/main/resources/assets/magicmod/models/item/magic_flower.json",
+          "src/main/resources/data/magicmod/worldgen/configured_feature/magic_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicFuel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fuel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicFuelItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_fuel.json"
+        ]
+      }
+    },
+    {
+      "name": "Magicfuel1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicfuel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magicfuel_1.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magicite_ingot.json",
+          "src/main/java/net/mcreator/magicmod/item/MagiciteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Magicrealm",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicrealm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/world/teleporter/MagicrealmPortalShape.java",
+          "src/main/resources/data/magicmod/dimension_type/magicrealm.json",
+          "src/main/resources/assets/magicmod/blockstates/magicrealm_portal.json",
+          "src/main/java/net/mcreator/magicmod/world/teleporter/MagicrealmTeleporter.java",
+          "src/main/java/net/mcreator/magicmod/item/MagicrealmItem.java",
+          "src/main/java/net/mcreator/magicmod/block/MagicrealmPortalBlock.java",
+          "src/main/resources/data/magicmod/dimension/magicrealm.json",
+          "src/main/java/net/mcreator/magicmod/world/dimension/MagicrealmDimension.java",
+          "src/main/resources/assets/magicmod/models/block/magicrealm_portal_ns.json",
+          "src/main/resources/assets/magicmod/models/block/magicrealm_portal_ew.json",
+          "src/main/resources/assets/magicmod/models/item/magicrealm.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_dirt.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_dirt.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_dirt.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicDirtBlock.java",
+          "src/main/resources/assets/magicmod/models/item/magic_dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/block/MagicGrassBlockBlock.java",
+          "src/main/resources/assets/magicmod/blockstates/magic_grass_block.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_grass_block.json",
+          "src/main/resources/assets/magicmod/models/item/magic_grass_block.json",
+          "src/main/resources/assets/magicmod/models/block/magic_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicAttack",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/enchantment/MagicAttackEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicEgg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_egg.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicEggItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicCraftingTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_crafting_table.json",
+          "src/main/resources/assets/magicmod/models/item/magic_crafting_table.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_crafting_table.json",
+          "src/main/resources/assets/magicmod/models/block/magic_crafting_table.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicCraftingTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SpawnEggTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_egg_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/spawn_egg_table.json",
+          "src/main/resources/assets/magicmod/blockstates/spawn_egg_table.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/spawn_egg_table.json",
+          "src/main/java/net/mcreator/magicmod/block/SpawnEggTableBlock.java",
+          "src/main/resources/assets/magicmod/models/item/spawn_egg_table.json"
+        ]
+      }
+    },
+    {
+      "name": "SpawnEggTableUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_egg_table_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/client/gui/SpawnEggTableUIScreen.java",
+          "src/main/java/net/mcreator/magicmod/world/inventory/SpawnEggTableUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicEggVillagercrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_egg_villagercrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_egg_villagercrafting.json"
+        ]
+      }
+    },
+    {
+      "name": "ZombieVillagerCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_villager_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/zombie_villager_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicDustItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicEnchantedDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_enchanted_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_enchanted_dust.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicEnchantedDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicEnchantedDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_enchanted_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_enchanted_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagictoEnchantedBook",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicto_enchanted_book",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magicto_enchanted_book.json"
+        ]
+      }
+    },
+    {
+      "name": "MagictoEnchantedGoldApple",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicto_enchanted_gold_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magicto_enchanted_gold_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDusttoIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dustto_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_dustto_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagictoKnowledgeBookCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicto_knowledge_book_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magicto_knowledge_book_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDustGlassBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_glass_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicDustGlassBottleItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_dust_glass_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicEnchantedDustGlassBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_enchanted_dust_glass_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicEnchantedDustGlassBottleItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_enchanted_dust_glass_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDustGlassBottleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_glass_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_dust_glass_bottle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDustGlassBottleRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_glass_bottle_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_dust_glass_bottle_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDustGlassBottleRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_glass_bottle_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_dust_glass_bottle_recipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDustGlassBottleRecipe4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_glass_bottle_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/recipes/brewing/MagicDustGlassBottleRecipe4BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicDustGlassBottleRecipe5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dust_glass_bottle_recipe_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/recipes/brewing/MagicDustGlassBottleRecipe5BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_sand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/block/MagicSandBlock.java",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_sand.json",
+          "src/main/resources/assets/magicmod/models/block/magic_sand.json",
+          "src/main/resources/assets/magicmod/models/item/magic_sand.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDesert",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/worldgen/biome/magic_desert.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicToolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_tool_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicrealmPortalIgniterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicrealm_portal_igniter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magicrealm_portal_igniter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magicrealmchest1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicrealmchest_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/loot_tables/chests/magicrealmchest_1.json"
+        ]
+      }
+    },
+    {
+      "name": "CommandBlockMagicRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_block_magic_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/command_block_magic_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicBrain",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_brain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicBrainItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_brain.json"
+        ]
+      }
+    },
+    {
+      "name": "CommandBlockCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_block_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/CommandBlockCoreItem.java",
+          "src/main/resources/assets/magicmod/models/item/command_block_core.json"
+        ]
+      }
+    },
+    {
+      "name": "CommandBlockCoreMagicRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_block_core_magic_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/command_block_core_magic_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicBrainRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_brain_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_brain_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicSandtoMagicGlassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_sandto_magic_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_sandto_magic_glass_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicCucumber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_cucumber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_cucumber.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicCucumberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicLeavesDropItem",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_leaves_drop_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_leaves_drop_item.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicBrainShuXingZhiTiGongQi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_brain_shu_xing_zhi_ti_gong_qi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/procedures/MagicBrainShuXingZhiTiGongQiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherStarCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/nether_star_core.json",
+          "src/main/java/net/mcreator/magicmod/item/NetherStarCoreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherStarCoreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/nether_star_core_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherStarReicpe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_reicpe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/nether_star_reicpe.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondedsemagicingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondedsemagicingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/diamondedsemagicingot.json",
+          "src/main/java/net/mcreator/magicmod/item/DiamondedsemagicingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondedSeMagicIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonded_se_magic_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/diamonded_se_magic_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronedMagicIngotRecipe",
+      "type": "anvilrecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironed_magic_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/anvilrecipes/IronedMagicIngotRecipeAnvilRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicFuelRecipe",
+      "type": "anvilrecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_fuel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/anvilrecipes/MagicFuelRecipeAnvilRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "SpawnEggTablerecipetype",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_egg_tablerecipetype",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/jei_recipes/SpawnEggTablerecipetypeRecipeCategory.java",
+          "src/main/java/net/mcreator/magicmod/jei_recipes/SpawnEggTablerecipetypeRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "SpawnEggTable_RightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_egg_table_right_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/procedures/SpawnEggTable_RightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnEggTableItemRetrived",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_egg_table_item_retrived",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/procedures/SpawnEggTableItemRetrivedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VillagerEggRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/villager_egg_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicIngotInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ingot_info",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CommandBlockCoreInfo",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_block_core_info",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MagicAlloyIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_alloy_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_alloy_ingot.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicAlloyIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicAlloyIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_alloy_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_alloy_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicAlloyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_alloy_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_alloy_block.json",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_alloy_block.json",
+          "src/main/resources/assets/magicmod/models/item/magic_alloy_block.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_alloy_block.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicAlloyBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicAlloyBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_alloy_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_alloy_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicAlloyBlockRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_alloy_block_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_alloy_block_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicChip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_chip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_chip.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicChipItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicCrystalItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMagicCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magic_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/RawMagicCrystalItem.java",
+          "src/main/resources/assets/magicmod/models/item/raw_magic_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicCrystalRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_crystal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_crystal_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicChipRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_chip_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_chip_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicLatex",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_latex",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_latex.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicLatexItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicLatexRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_latex_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_latex_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicLatexRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_latex_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_latex_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicRubber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_rubber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_rubber.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicRubberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ArrowMagicDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_magic_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/arrow_magic_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ArrowMagicDustRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_magic_dust_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/arrow_magic_dust_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicWoodenStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wooden_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicWoodenStickItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_wooden_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_latex_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicStickItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_latex_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicString",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_latex_string",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicStringItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_latex_string.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicLubexStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_lubex_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_lubex_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicRubberStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_rubber_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_rubber_stick.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicRubberStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicRubberString",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_rubber_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_rubber_string.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicRubberStringItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicRubberStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_rubber_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_rubber_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicStringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_string_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_string_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicRubberStringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_rubber_string_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_rubber_string_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPolymer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_polymer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_polymer.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicPolymerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicPolymerStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_polymer_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicPolymerStickItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_polymer_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPolymerString",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_polymer_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_polymer_string.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicPolymerStringItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicPolymerStringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_polymer_string_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_polymer_string_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPolymerStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_polymer_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_polymer_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicPolymerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_polymer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_polymer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMagicMaterial",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magic_material",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/RawMagicMaterialItem.java",
+          "src/main/resources/assets/magicmod/models/item/raw_magic_material.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMagicMetalRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magic_metal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/raw_magic_metal_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArrow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/item/MagicArrowItem.java",
+          "src/main/resources/assets/magicmod/models/item/magic_arrow.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArrowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_arrow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_arrow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArrowRecipeWithMagicStick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_arrow_recipe_with_magic_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_arrow_recipe_with_magic_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicArrowRecipeWithMagicStick2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_arrow_recipe_with_magic_stick_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_arrow_recipe_with_magic_stick_2.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicWafer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wafer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/item/magic_wafer.json",
+          "src/main/java/net/mcreator/magicmod/item/MagicWaferItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicWaferRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wafer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_wafer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicSmartStorage",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_smart_storage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicmod/models/block/magic_smart_storage.json",
+          "src/main/java/net/mcreator/magicmod/block/entity/MagicSmartStorageBlockEntity.java",
+          "src/main/resources/assets/magicmod/models/item/magic_smart_storage.json",
+          "src/main/java/net/mcreator/magicmod/block/MagicSmartStorageBlock.java",
+          "src/main/resources/data/magicmod/loot_tables/blocks/magic_smart_storage.json",
+          "src/main/resources/assets/magicmod/blockstates/magic_smart_storage.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicSmartStorageRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_smart_storage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicmod/recipes/magic_smart_storage_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicsmartstorageUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicsmartstorage_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/world/inventory/MagicsmartstorageUIMenu.java",
+          "src/main/java/net/mcreator/magicmod/client/gui/MagicsmartstorageUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicSmartStorage_Click",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_smart_storage_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/procedures/MagicSmartStorage_ClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicSmartStoragePassword",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_smart_storage_password",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/procedures/MagicSmartStoragePasswordProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicSmartStoragePasswordUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_smart_storage_password_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicmod/client/gui/MagicSmartStoragePasswordUIScreen.java",
+          "src/main/java/net/mcreator/magicmod/world/inventory/MagicSmartStoragePasswordUIMenu.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:forge:magiceggandegg": [
+      "Items.EGG",
+      "CUSTOM:MagicEgg"
+    ],
+    "ITEMS:forge:glass": [
+      "CUSTOM:MagicGlass"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Magic1ew"
+    ],
+    "ITEMS:minecraft:commandblockandcore": [
+      "CUSTOM:CommandBlockCore",
+      "Blocks.COMMAND_BLOCK",
+      "Blocks.REPEATING_COMMAND_BLOCK",
+      "Blocks.CHAIN_COMMAND_BLOCK",
+      "Items.COMMAND_BLOCK_MINECART"
+    ],
+    "ITEMS:mod:magicstick": [
+      "CUSTOM:MagicWoodenStick",
+      "CUSTOM:MagicStick",
+      "CUSTOM:MagicRubberStick",
+      "CUSTOM:MagicPolymerStick"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_mountain": [
+      "~CUSTOM:Magic1ew"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SpawnEggTable",
+      "~CUSTOM:MagicCraftingTable",
+      "~CUSTOM:MagicButton",
+      "~CUSTOM:MagicPressurePlate",
+      "~CUSTOM:MagicSlab",
+      "~CUSTOM:MagicStairs",
+      "~CUSTOM:MagicPlanks",
+      "~CUSTOM:MagicLog",
+      "~CUSTOM:MagicWood"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Magic1ew"
+    ],
+    "ITEMS:minecraft:logs": [
+      "CUSTOM:MagicLog"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:MagicDesert"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:MagicDesert"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:MagicDesert"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MagicSlab"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MagicPickaxe",
+      "~CUSTOM:Magictool"
+    ],
+    "ITEMS:mod:magicenchanted": [
+      "CUSTOM:MagicEnchantedDust",
+      "CUSTOM:MagicEnchantedDustGlassBottle"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:MagicHoe"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:MagicDirt",
+      "~CUSTOM:MagicSand",
+      "~CUSTOM:MagicGrassBlock"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:MagicSand",
+      "~CUSTOM:MagicGrassBlock",
+      "~CUSTOM:MagicDirt"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:MagicFence"
+    ],
+    "ITEMS:minecraft:magicenchanteditems": [
+      "Blocks.AMETHYST_CLUSTER",
+      "Items.QUARTZ",
+      "Items.COAL#0",
+      "Items.COAL#1",
+      "Blocks.GLASS",
+      "CUSTOM:MagicGlass",
+      "CUSTOM:MagicDust"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:MagicShovel"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:MagicAxe"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:MagicDesert",
+      "~CUSTOM:Magic1ew"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Magic1ew"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MagicStairs"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MagicSmartStorage",
+      "~CUSTOM:MagicAlloyBlock",
+      "~CUSTOM:MagicOre"
+    ],
+    "BLOCKS:forge:ores": [
+      "CUSTOM:MagicOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:MagicBlock",
+      "~CUSTOM:MagicStone"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:MagicDesert"
+    ],
+    "ITEMS:forge:magic_log": [
+      "CUSTOM:MagicWood",
+      "CUSTOM:MagicLog"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:MagicDesert",
+      "~CUSTOM:Magic1ew"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:MagicSword"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:MagicLeaves"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MagicSmartStorage",
+      "~CUSTOM:MagicAlloyBlock",
+      "~CUSTOM:MagicBlock",
+      "~CUSTOM:MagicOre",
+      "~CUSTOM:MagicStone"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:MagicWater"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_desert": [
+      "~CUSTOM:MagicDesert"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "zh_tw": {
+      "item.magicmod.magic_wooden_stick": "Magic Wooden Stick",
+      "block.magicmod.magic_fence_gate": "Magic Fence Gate",
+      "item.magicmod.magic_arrow": "Magic Arrow",
+      "item.magicmod.command_block_core": "Command Block Core",
+      "item.magicmod.magictool": "Magictool",
+      "gui.magicmod.magicsmartstorage_ui.label_magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_leaves": "Magic Leaves",
+      "biome.magicmod.magic_1ew": "Magic Plains",
+      "item.magicmod.magic_latex": "Magic Latex",
+      "item.magicmod.se_magic_ingot": "SeMagic Ingot",
+      "block.magicmod.magic_block": "Block of Magic",
+      "item.magicmod.diamondedsemagicingot": "Diamonded Cooked Magic Ingot",
+      "block.magicmod.magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_slab": "Magic Slab",
+      "item.magicmod.magic_enchanted_dust": "Magic Enchanted Dust",
+      "item.magicmod.magic_sword": "Magic Sword",
+      "item.magicmod.magic_hoe": "Magic Hoe",
+      "gui.magicmod.magic_smart_storage_password_ui.label_password": "Password",
+      "biome.magicmod.magic_desert": "Magic Desert",
+      "item.magicmod.magic_dust_glass_bottle": "Magic Dust Glass Bottle",
+      "gui.magicmod.magic_smart_storage_password_ui.button_confirm": "Confirm",
+      "block.magicmod.magic_alloy_block": "Magic Alloy Block",
+      "item.magicmod.magic_chip": "Magic Chip",
+      "block.magicmod.magic_stairs": "Magic Stairs",
+      "item.magicmod.magic_rubber_stick": "Magic Rubber Stick",
+      "gui.magicmod.magic_smart_storage_password_ui.button_head_scan": "Head Scan",
+      "enchantment.magicmod.magic_attack": "Magic Attack",
+      "item.magicmod.magic_polymer_stick": "Magic Rubber Stick",
+      "item.magicmod.magic_shovel": "Magic Shovel",
+      "block.magicmod.spawn_egg_table": "Spawn Egg Table",
+      "block.magicmod.magic_glass": "Magic Glass",
+      "item.magicmod.magic_water_bucket": "Magic Water Bucket",
+      "gui.magicmod.magic_smart_storage_password_ui.password": "",
+      "block.magicmod.magic_log": "Magic Log",
+      "block.magicmod.magic_button": "Magic Button",
+      "block.magicmod.magic_water": "Magic Water",
+      "item.magicmod.magic_fuel": "Magic Fuel",
+      "block.magicmod.magic_planks": "Magic Planks",
+      "block.magicmod.magic_flower": "Magic Flower",
+      "item.magicmod.magic_dust": "Magic Dust",
+      "jei.magicmod.command_block_core_info": "The item is Command Block\u0027s core.",
+      "item.magicmod.magic_latex_string": "Magic Lubex String",
+      "item.magicmod.raw_magic_crystal": "Raw Magic Crystal",
+      "item.magicmod.magic_armor_boots": "Magic Boots",
+      "item.magicmod.magic_rubber_string": "Magic Rubber String",
+      "item.magicmod.magic_axe": "Magic Axe",
+      "item.magicmod.magicrealm": "Magicrealm Portal Igniter",
+      "block.magicmod.magic_crafting_table": "Magic Crafting Table",
+      "item.magicmod.magic_armor_chestplate": "Magic Chestplate",
+      "item.magicmod.magic_egg": "Magic Egg",
+      "block.magicmod.magic_ore": "Magic Ore",
+      "block.magicmod.magic_pressure_plate": "Magic Pressure Plate",
+      "item.magicmod.magicite_ingot": "Magicite Ingot",
+      "item.magicmod.magic_wafer": "Magic Wafer",
+      "item.magicmod.nether_star_core": "Nether Star Core",
+      "item.magicmod.magic_rubber": "Magic Latex",
+      "item.magicmod.magic_armor_leggings": "Magic Leggings",
+      "fluid.magicmod.magic_water": "Magic Water",
+      "block.magicmod.magic_dirt": "Magic Dirt",
+      "item.magicmod.raw_magic_material": "Magic Ingot",
+      "item.magicmod.magic_latex_stick": "Magic Lubex Stick",
+      "block.magicmod.magic_stone": "Magic Stone",
+      "item.magicmod.magic_ingot": "Magic",
+      "block.magicmod.magic_sand": "Magic Sand",
+      "gui.magicmod.magic_smart_storage_password_ui.label_enter_password": "Enter Password",
+      "gui.magicmod.magic_smart_storage_password_ui.button_finger_scan": "Finger Scan",
+      "block.magicmod.magic_fence": "Magic Fence",
+      "item.magicmod.magic_polymer": "Magic Latex",
+      "item.magicmod.magic_pickaxe": "Magic Pickaxe",
+      "item.magicmod.magic_iron_ingot": "Ironed Magic Ingot",
+      "item.magicmod.magic_alloy_ingot": "Magic Alloy Ingot",
+      "block.magicmod.magic_wood": "Magic Wood",
+      "item.magicmod.magic_crystal": "Magic Crystal",
+      "jei.magicmod.magic_ingot_info": "An ingot based by magic, the ingot can make many magic items.",
+      "item.magicmod.magic_polymer_string": "Magic Rubber String",
+      "item.magicmod.magic_cucumber": "Magic Cucumber",
+      "block.magicmod.magic_grass_block": "Magic Grass Block",
+      "item.magicmod.magic_brain": "Magic Brain",
+      "item.magicmod.magic_armor_helmet": "Magic Helmet",
+      "item.magicmod.magic_enchanted_dust_glass_bottle": "Magic Enchanted Dust Glass Bottle",
+      "enchantment.magicmod.magicenf": "Magic Enchantment"
+    },
+    "en_us": {
+      "item.magicmod.magic_wooden_stick": "Magic Wooden Stick",
+      "block.magicmod.magic_fence_gate": "Magic Fence Gate",
+      "item.magicmod.magic_arrow": "Magic Arrow",
+      "item.magicmod.command_block_core": "Command Block Core",
+      "item.magicmod.magictool": "Magictool",
+      "gui.magicmod.magicsmartstorage_ui.label_magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_leaves": "Magic Leaves",
+      "biome.magicmod.magic_1ew": "Magic Plains",
+      "item.magicmod.magic_latex": "Magic Latex",
+      "item.magicmod.se_magic_ingot": "Cooked Magic Ingot",
+      "item.magicmod.diamondedsemagicingot": "Diamonded Cooked Magic Ingot",
+      "block.magicmod.magic_block": "Block of Magic",
+      "block.magicmod.magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_slab": "Magic Slab",
+      "item.magicmod.magic_enchanted_dust": "Magic Enchanted Dust",
+      "item.magicmod.magic_sword": "Magic Sword",
+      "item.magicmod.magic_hoe": "Magic Hoe",
+      "gui.magicmod.magic_smart_storage_password_ui.label_password": "Password",
+      "biome.magicmod.magic_desert": "Magic Desert",
+      "item.magicmod.magic_dust_glass_bottle": "Magic Dust Glass Bottle",
+      "gui.magicmod.magic_smart_storage_password_ui.button_confirm": "Confirm",
+      "block.magicmod.magic_alloy_block": "Magic Alloy Block",
+      "item.magicmod.magic_chip": "Magic Chip",
+      "block.magicmod.magic_stairs": "Magic Stairs",
+      "item.magicmod.magic_rubber_stick": "Magic Rubber Stick",
+      "gui.magicmod.magic_smart_storage_password_ui.button_head_scan": "Head Scan",
+      "enchantment.magicmod.magic_attack": "Magic Attack",
+      "item.magicmod.magic_polymer_stick": "Magic Rubber Stick",
+      "item.magicmod.magic_shovel": "Magic Shovel",
+      "block.magicmod.spawn_egg_table": "Spawn Egg Table",
+      "block.magicmod.magic_glass": "Magic Glass",
+      "item.magicmod.magic_water_bucket": "Magic Water Bucket",
+      "gui.magicmod.magic_smart_storage_password_ui.password": "",
+      "block.magicmod.magic_log": "Magic Log",
+      "block.magicmod.magic_button": "Magic Button",
+      "block.magicmod.magic_water": "Magic Water",
+      "item.magicmod.magic_fuel": "Magic Fuel",
+      "block.magicmod.magic_planks": "Magic Planks",
+      "block.magicmod.magic_flower": "Magic Flower",
+      "item.magicmod.magic_dust": "Magic Dust",
+      "jei.magicmod.command_block_core_info": "The item is Command Block\u0027s core.",
+      "item.magicmod.magic_latex_string": "Magic Lubex String",
+      "item.magicmod.raw_magic_crystal": "Raw Magic Crystal",
+      "item.magicmod.magic_armor_boots": "Magic Boots",
+      "item.magicmod.magic_rubber_string": "Magic Rubber String",
+      "item.magicmod.magic_axe": "Magic Axe",
+      "item.magicmod.magicrealm": "Magicrealm Portal Igniter",
+      "block.magicmod.magic_crafting_table": "Magic Crafting Table",
+      "item.magicmod.magic_armor_chestplate": "Magic Chestplate",
+      "item.magicmod.magic_egg": "Magic Egg",
+      "block.magicmod.magic_ore": "Magic Ore",
+      "block.magicmod.magic_pressure_plate": "Magic Pressure Plate",
+      "item.magicmod.magicite_ingot": "Magicite Ingot",
+      "item.magicmod.magic_wafer": "Magic Wafer",
+      "item.magicmod.nether_star_core": "Nether Star Core",
+      "item.magicmod.magic_rubber": "Magic Rubber",
+      "item.magicmod.magic_armor_leggings": "Magic Leggings",
+      "fluid.magicmod.magic_water": "Magic Water",
+      "block.magicmod.magic_dirt": "Magic Dirt",
+      "item.magicmod.raw_magic_material": "Raw Magic Metal",
+      "item.magicmod.magic_latex_stick": "Magic Lubex Stick",
+      "block.magicmod.magic_stone": "Magic Stone",
+      "item.magicmod.magic_ingot": "Magic Ingot",
+      "block.magicmod.magic_sand": "Magic Sand",
+      "gui.magicmod.magic_smart_storage_password_ui.label_enter_password": "Enter Password",
+      "gui.magicmod.magic_smart_storage_password_ui.button_finger_scan": "Finger Scan",
+      "block.magicmod.magic_fence": "Magic Fence",
+      "item.magicmod.magic_polymer": "Magic Polymer",
+      "item.magicmod.magic_pickaxe": "Magic Pickaxe",
+      "item.magicmod.magic_iron_ingot": "Magic Iron Ingot",
+      "item.magicmod.magic_alloy_ingot": "Magic Alloy Ingot",
+      "block.magicmod.magic_wood": "Magic Wood",
+      "item.magicmod.magic_crystal": "Magic Crystal",
+      "jei.magicmod.magic_ingot_info": "An ingot based by magic, the ingot can make many magic items.",
+      "item.magicmod.magic_polymer_string": "Magic Rubber String",
+      "item.magicmod.magic_cucumber": "Magic Cucumber",
+      "block.magicmod.magic_grass_block": "Magic Grass Block",
+      "item.magicmod.magic_brain": "Magic Brain",
+      "item.magicmod.magic_armor_helmet": "Magic Helmet",
+      "item.magicmod.magic_enchanted_dust_glass_bottle": "Magic Enchanted Dust Glass Bottle",
+      "enchantment.magicmod.magicenf": "Magic Enchantment"
+    },
+    "zh_cn": {
+      "item.magicmod.magic_wooden_stick": "Magic Wooden Stick",
+      "block.magicmod.magic_fence_gate": "Magic Fence Gate",
+      "item.magicmod.magic_arrow": "Magic Arrow",
+      "item.magicmod.command_block_core": "Command Block Core",
+      "item.magicmod.magictool": "Magictool",
+      "gui.magicmod.magicsmartstorage_ui.label_magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_leaves": "Magic Leaves",
+      "biome.magicmod.magic_1ew": "Magic 1ew",
+      "item.magicmod.magic_latex": "Magic Latex",
+      "item.magicmod.se_magic_ingot": "SeMagic Ingot",
+      "block.magicmod.magic_block": "Block of Magic",
+      "item.magicmod.diamondedsemagicingot": "Diamonded Cooked Magic Ingot",
+      "block.magicmod.magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_slab": "Magic Slab",
+      "item.magicmod.magic_enchanted_dust": "Magic Enchanted Dust",
+      "item.magicmod.magic_sword": "Magic Sword",
+      "item.magicmod.magic_hoe": "Magic Hoe",
+      "gui.magicmod.magic_smart_storage_password_ui.label_password": "Password",
+      "biome.magicmod.magic_desert": "Magic Desert",
+      "item.magicmod.magic_dust_glass_bottle": "Magic Dust Glass Bottle",
+      "gui.magicmod.magic_smart_storage_password_ui.button_confirm": "Confirm",
+      "block.magicmod.magic_alloy_block": "Magic Alloy Block",
+      "item.magicmod.magic_chip": "Magic Chip",
+      "block.magicmod.magic_stairs": "Magic Stairs",
+      "item.magicmod.magic_rubber_stick": "Magic Rubber Stick",
+      "gui.magicmod.magic_smart_storage_password_ui.button_head_scan": "Head Scan",
+      "enchantment.magicmod.magic_attack": "Magic Attack",
+      "item.magicmod.magic_polymer_stick": "Magic Rubber Stick",
+      "item.magicmod.magic_shovel": "Magic Shovel",
+      "block.magicmod.spawn_egg_table": "Spawn Egg Table",
+      "block.magicmod.magic_glass": "Magic Glass",
+      "item.magicmod.magic_water_bucket": "Magic Water Bucket",
+      "gui.magicmod.magic_smart_storage_password_ui.password": "",
+      "block.magicmod.magic_log": "Magic Log",
+      "block.magicmod.magic_button": "Magic Button",
+      "block.magicmod.magic_water": "Magic Water",
+      "item.magicmod.magic_fuel": "Magic Fuel",
+      "block.magicmod.magic_planks": "Magic Planks",
+      "block.magicmod.magic_flower": "Magic Flower",
+      "item.magicmod.magic_dust": "Magic Dust",
+      "jei.magicmod.command_block_core_info": "The item is Command Block\u0027s core.",
+      "item.magicmod.magic_latex_string": "Magic Lubex String",
+      "item.magicmod.raw_magic_crystal": "Raw Magic Crystal",
+      "item.magicmod.magic_armor_boots": "Magic Boots",
+      "item.magicmod.magic_rubber_string": "Magic Rubber String",
+      "item.magicmod.magic_axe": "Magic Axe",
+      "item.magicmod.magicrealm": "Magicrealm Portal Igniter",
+      "block.magicmod.magic_crafting_table": "Magic Crafting Table",
+      "item.magicmod.magic_armor_chestplate": "Magic Chestplate",
+      "item.magicmod.magic_egg": "Magic Egg",
+      "block.magicmod.magic_ore": "Magic Ore",
+      "block.magicmod.magic_pressure_plate": "Magic Pressure Plate",
+      "item.magicmod.magicite_ingot": "Magicite Ingot",
+      "item.magicmod.magic_wafer": "Magic Wafer",
+      "item.magicmod.nether_star_core": "Nether Star Core",
+      "item.magicmod.magic_rubber": "Magic Latex",
+      "item.magicmod.magic_armor_leggings": "Magic Leggings",
+      "fluid.magicmod.magic_water": "Magic Water",
+      "block.magicmod.magic_dirt": "Magic Dirt",
+      "item.magicmod.raw_magic_material": "Magic Ingot",
+      "item.magicmod.magic_latex_stick": "Magic Lubex Stick",
+      "block.magicmod.magic_stone": "Magic Stone",
+      "item.magicmod.magic_ingot": "Magic",
+      "block.magicmod.magic_sand": "Magic Sand",
+      "gui.magicmod.magic_smart_storage_password_ui.label_enter_password": "Enter Password",
+      "gui.magicmod.magic_smart_storage_password_ui.button_finger_scan": "Finger Scan",
+      "block.magicmod.magic_fence": "Magic Fence",
+      "item.magicmod.magic_polymer": "Magic Latex",
+      "item.magicmod.magic_pickaxe": "Magic Pickaxe",
+      "item.magicmod.magic_iron_ingot": "Ironed Magic Ingot",
+      "item.magicmod.magic_alloy_ingot": "Magic Alloy Ingot",
+      "block.magicmod.magic_wood": "Magic Wood",
+      "item.magicmod.magic_crystal": "Magic Crystal",
+      "jei.magicmod.magic_ingot_info": "An ingot based by magic, the ingot can make many magic items.",
+      "item.magicmod.magic_polymer_string": "Magic Rubber String",
+      "item.magicmod.magic_cucumber": "Magic Cucumber",
+      "block.magicmod.magic_grass_block": "Magic Grass Block",
+      "item.magicmod.magic_brain": "Magic Brain",
+      "item.magicmod.magic_armor_helmet": "Magic Helmet",
+      "item.magicmod.magic_enchanted_dust_glass_bottle": "Magic Enchanted Dust Glass Bottle",
+      "enchantment.magicmod.magicenf": "Magic"
+    },
+    "ja_jp": {
+      "item.magicmod.magic_wooden_stick": "Magic Wooden Stick",
+      "block.magicmod.magic_fence_gate": "Magic Fence Gate",
+      "item.magicmod.magic_arrow": "Magic Arrow",
+      "item.magicmod.command_block_core": "Command Block Core",
+      "item.magicmod.magictool": "Magictool",
+      "gui.magicmod.magicsmartstorage_ui.label_magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_leaves": "Magic Leaves",
+      "biome.magicmod.magic_1ew": "魔法の平原",
+      "item.magicmod.magic_latex": "Magic Latex",
+      "item.magicmod.se_magic_ingot": "SeMagic Ingot",
+      "block.magicmod.magic_block": "Block of Magic",
+      "item.magicmod.diamondedsemagicingot": "Diamonded Cooked Magic Ingot",
+      "block.magicmod.magic_smart_storage": "Magic Smart Storage",
+      "block.magicmod.magic_slab": "Magic Slab",
+      "item.magicmod.magic_enchanted_dust": "Magic Enchanted Dust",
+      "item.magicmod.magic_sword": "Magic Sword",
+      "item.magicmod.magic_hoe": "Magic Hoe",
+      "gui.magicmod.magic_smart_storage_password_ui.label_password": "Password",
+      "biome.magicmod.magic_desert": "Magic Desert",
+      "item.magicmod.magic_dust_glass_bottle": "Magic Dust Glass Bottle",
+      "gui.magicmod.magic_smart_storage_password_ui.button_confirm": "Confirm",
+      "block.magicmod.magic_alloy_block": "Magic Alloy Block",
+      "item.magicmod.magic_chip": "Magic Chip",
+      "block.magicmod.magic_stairs": "Magic Stairs",
+      "item.magicmod.magic_rubber_stick": "Magic Rubber Stick",
+      "gui.magicmod.magic_smart_storage_password_ui.button_head_scan": "Head Scan",
+      "enchantment.magicmod.magic_attack": "Magic Attack",
+      "item.magicmod.magic_polymer_stick": "Magic Rubber Stick",
+      "item.magicmod.magic_shovel": "Magic Shovel",
+      "block.magicmod.spawn_egg_table": "Spawn Egg Table",
+      "block.magicmod.magic_glass": "Magic Glass",
+      "item.magicmod.magic_water_bucket": "Magic Water Bucket",
+      "gui.magicmod.magic_smart_storage_password_ui.password": "",
+      "block.magicmod.magic_log": "Magic Log",
+      "block.magicmod.magic_button": "Magic Button",
+      "block.magicmod.magic_water": "Magic Water",
+      "item.magicmod.magic_fuel": "Magic Fuel",
+      "block.magicmod.magic_planks": "Magic Planks",
+      "block.magicmod.magic_flower": "Magic Flower",
+      "item.magicmod.magic_dust": "Magic Dust",
+      "jei.magicmod.command_block_core_info": "The item is Command Block\u0027s core.",
+      "item.magicmod.magic_latex_string": "Magic Lubex String",
+      "item.magicmod.raw_magic_crystal": "Raw Magic Crystal",
+      "item.magicmod.magic_armor_boots": "Magic Boots",
+      "item.magicmod.magic_rubber_string": "Magic Rubber String",
+      "item.magicmod.magic_axe": "Magic Axe",
+      "item.magicmod.magicrealm": "Magicrealm Portal Igniter",
+      "block.magicmod.magic_crafting_table": "Magic Crafting Table",
+      "item.magicmod.magic_armor_chestplate": "Magic Chestplate",
+      "item.magicmod.magic_egg": "Magic Egg",
+      "block.magicmod.magic_ore": "Magic Ore",
+      "block.magicmod.magic_pressure_plate": "Magic Pressure Plate",
+      "item.magicmod.magicite_ingot": "Magicite Ingot",
+      "item.magicmod.magic_wafer": "Magic Wafer",
+      "item.magicmod.nether_star_core": "Nether Star Core",
+      "item.magicmod.magic_rubber": "Magic Latex",
+      "item.magicmod.magic_armor_leggings": "Magic Leggings",
+      "fluid.magicmod.magic_water": "Magic Water",
+      "block.magicmod.magic_dirt": "Magic Dirt",
+      "item.magicmod.raw_magic_material": "Magic Ingot",
+      "item.magicmod.magic_latex_stick": "Magic Lubex Stick",
+      "block.magicmod.magic_stone": "Magic Stone",
+      "item.magicmod.magic_ingot": "Magic",
+      "block.magicmod.magic_sand": "Magic Sand",
+      "gui.magicmod.magic_smart_storage_password_ui.label_enter_password": "Enter Password",
+      "gui.magicmod.magic_smart_storage_password_ui.button_finger_scan": "Finger Scan",
+      "block.magicmod.magic_fence": "Magic Fence",
+      "item.magicmod.magic_polymer": "Magic Latex",
+      "item.magicmod.magic_pickaxe": "Magic Pickaxe",
+      "item.magicmod.magic_iron_ingot": "Ironed Magic Ingot",
+      "item.magicmod.magic_alloy_ingot": "Magic Alloy Ingot",
+      "block.magicmod.magic_wood": "Magic Wood",
+      "item.magicmod.magic_crystal": "Magic Crystal",
+      "jei.magicmod.magic_ingot_info": "An ingot based by magic, the ingot can make many magic items.",
+      "item.magicmod.magic_polymer_string": "Magic Rubber String",
+      "item.magicmod.magic_cucumber": "Magic Cucumber",
+      "block.magicmod.magic_grass_block": "Magic Grass Block",
+      "item.magicmod.magic_brain": "Magic Brain",
+      "item.magicmod.magic_armor_helmet": "Magic Helmet",
+      "item.magicmod.magic_enchanted_dust_glass_bottle": "Magic Enchanted Dust Glass Bottle",
+      "enchantment.magicmod.magicenf": "Magic"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "magicmod",
+    "modName": "Magic Mod",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.magicmod"
+  },
+  "mcreatorVersion": 202400232117
+}
