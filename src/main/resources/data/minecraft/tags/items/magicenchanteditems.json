@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:amethyst_cluster",
+    "minecraft:quartz",
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "minecraft:glass",
+    "magicmod:magic_glass",
+    "magicmod:magic_dust"
+  ]
+}

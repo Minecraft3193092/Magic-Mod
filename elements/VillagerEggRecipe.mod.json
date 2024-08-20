@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "spawn_egg_tablerecipetype",
+    "result": {
+      "value": "Items.SPAWN_EGG#120"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "TAG:forge:magiceggandegg"
+      }
+    ]
+  }
+}

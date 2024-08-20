@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      },
+      {
+        "value": "CUSTOM:MagicAlloyIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagicAlloyBlock"
+    },
+    "name": "magic_alloy_block_recipe",
+    "namespace": "mod"
+  }
+}

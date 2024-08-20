@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagicDust"
+      },
+      {
+        "value": "CUSTOM:MagicDust"
+      },
+      {
+        "value": "CUSTOM:MagicDust"
+      },
+      {
+        "value": "CUSTOM:MagicDust"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:MagicDust"
+      },
+      {
+        "value": "CUSTOM:MagicDust"
+      },
+      {
+        "value": "CUSTOM:MagicDust"
+      },
+      {
+        "value": "CUSTOM:MagicDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagicDustGlassBottle"
+    },
+    "name": "magic_dust_glass_bottle_recipe_2",
+    "namespace": "mod"
+  }
+}

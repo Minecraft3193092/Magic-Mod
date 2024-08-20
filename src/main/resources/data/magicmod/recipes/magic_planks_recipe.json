@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:magic_log"
+    }
+  ],
+  "result": {
+    "item": "magicmod:magic_planks",
+    "count": 4
+  }
+}

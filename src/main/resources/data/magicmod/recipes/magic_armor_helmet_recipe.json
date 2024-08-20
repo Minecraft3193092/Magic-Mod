@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_ingot"
+    }
+  },
+  "result": {
+    "item": "magicmod:magic_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_ingot"
+    },
+    "b": {
+      "item": "magicmod:magic_flower"
+    }
+  },
+  "result": {
+    "item": "magicmod:magic_fuel",
+    "count": 1
+  }
+}

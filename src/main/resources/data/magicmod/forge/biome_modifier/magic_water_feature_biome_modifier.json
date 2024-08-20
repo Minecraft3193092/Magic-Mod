@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "magicmod:magic_water_feature",
+  "step": "lakes"
+}

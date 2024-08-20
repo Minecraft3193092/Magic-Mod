@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "particle": "magicmod:block/magicwood_planks",
+    "texture": "magicmod:block/magicwood_planks"
+  },
+  "render_type": "solid"
+}

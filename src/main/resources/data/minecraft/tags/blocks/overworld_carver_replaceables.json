@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "magicmod:magic_dirt",
+    "magicmod:magic_sand",
+    "magicmod:magic_grass_block"
+  ]
+}

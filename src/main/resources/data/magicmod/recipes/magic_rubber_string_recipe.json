@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_rubber_stick"
+    }
+  },
+  "result": {
+    "item": "magicmod:magic_rubber_string",
+    "count": 8
+  }
+}

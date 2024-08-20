@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 12,
+  "ingredient": {
+    "item": "magicmod:magic_crystal"
+  },
+  "result": "magicmod:magic_chip"
+}

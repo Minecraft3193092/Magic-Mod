@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magicmod:block/magic_leaves",
+    "particle": "magicmod:block/magic_leaves"
+  }
+}

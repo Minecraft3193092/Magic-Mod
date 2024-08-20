@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:CommandBlockCore"
+      }
+    ],
+    "information": [
+      "The item is Command Block's core."
+    ]
+  }
+}

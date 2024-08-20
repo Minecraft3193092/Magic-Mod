@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicmod:block/magicsmartstorage_top2",
+    "up": "magicmod:block/magicsmartstorage_top2",
+    "north": "magicmod:block/magicsmartstorage_top",
+    "east": "magicmod:block/magicsmartstorage_side",
+    "south": "magicmod:block/magicsmartstorage_side",
+    "west": "magicmod:block/magicsmartstorage_side",
+    "particle": "magicmod:block/magicsmartstorage_top2"
+  },
+  "render_type": "solid"
+}

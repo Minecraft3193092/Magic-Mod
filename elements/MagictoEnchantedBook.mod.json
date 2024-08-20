@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      },
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      },
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      },
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      },
+      {
+        "value": "Items.BOOK"
+      },
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      },
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      },
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      },
+      {
+        "value": "TAG:minecraft:magicenchanteditems"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.ENCHANTED_BOOK"
+    },
+    "name": "magicto_enchanted_book",
+    "namespace": "mod"
+  }
+}

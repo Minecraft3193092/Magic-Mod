@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:gold_nugget"
+    },
+    "c": {
+      "tag": "minecraft:magicenchanteditems"
+    },
+    "d": {
+      "item": "magicmod:se_magic_ingot"
+    }
+  },
+  "result": {
+    "item": "magicmod:nether_star_core",
+    "count": 1
+  }
+}

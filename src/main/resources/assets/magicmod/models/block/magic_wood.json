@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magicmod:block/magiclog",
+    "particle": "magicmod:block/magiclog"
+  },
+  "render_type": "solid"
+}

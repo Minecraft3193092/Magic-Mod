@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "magicmod:block/magic_smart_storage"
+    }
+  }
+}

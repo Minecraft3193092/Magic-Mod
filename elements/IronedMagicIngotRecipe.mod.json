@@ -1,0 +1,17 @@
+{
+  "_fv": 66,
+  "_type": "anvilrecipe",
+  "definition": {
+    "leftitem": {
+      "value": "CUSTOM:MagicIngot"
+    },
+    "rightitem": {
+      "value": "Items.IRON_INGOT"
+    },
+    "rightcost": 1,
+    "xpcost": 1,
+    "output": {
+      "value": "CUSTOM:IronedMagicIngot"
+    }
+  }
+}

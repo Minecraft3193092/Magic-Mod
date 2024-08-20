@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "magicmod:block/magicwood_planks",
+    "bottom": "magicmod:block/magicwood_planks",
+    "top": "magicmod:block/magicwood_planks",
+    "side": "magicmod:block/magicwood_planks"
+  },
+  "render_type": "solid"
+}

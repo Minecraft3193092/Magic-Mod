@@ -1,0 +1,15 @@
+{
+  "type": "magicmod:spawn_egg_tablerecipetype",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "tag": "forge:magiceggandegg"
+    }
+  ],
+  "output": {
+    "item": "minecraft:villager_spawn_egg",
+    "count": 1
+  }
+}

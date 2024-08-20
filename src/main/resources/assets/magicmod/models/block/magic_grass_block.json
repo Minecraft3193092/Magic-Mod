@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "magicmod:block/magicdirt",
+    "top": "magicmod:block/grass",
+    "side": "magicmod:block/magicgrassblock",
+    "overlay": "magicmod:block/magicgrassblock",
+    "particle": "magicmod:block/magicdirt"
+  },
+  "render_type": "cutout_mipped"
+}

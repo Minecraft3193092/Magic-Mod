@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magicmod:magic_planks"
+    },
+    {
+      "item": "magicmod:magic_planks"
+    }
+  ],
+  "result": {
+    "item": "magicmod:magic_wooden_stick",
+    "count": 4
+  }
+}

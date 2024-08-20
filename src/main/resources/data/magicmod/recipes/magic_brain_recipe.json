@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "  g"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_iron_ingot"
+    },
+    "b": {
+      "item": "magicmod:magic_ingot"
+    },
+    "c": {
+      "item": "magicmod:magic_block"
+    },
+    "d": {
+      "item": "magicmod:magic_sand"
+    },
+    "e": {
+      "item": "magicmod:magic_wafer"
+    },
+    "f": {
+      "item": "magicmod:nether_star_core"
+    },
+    "g": {
+      "item": "magicmod:diamondedsemagicingot"
+    }
+  },
+  "result": {
+    "item": "magicmod:magic_brain",
+    "count": 1
+  }
+}

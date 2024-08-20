@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_ingot"
+    },
+    "b": {
+      "item": "magicmod:magic_polymer"
+    },
+    "c": {
+      "item": "magicmod:magic_wafer"
+    },
+    "d": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "magicmod:magic_smart_storage",
+    "count": 1
+  }
+}

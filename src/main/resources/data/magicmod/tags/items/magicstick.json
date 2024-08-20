@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "magicmod:magic_wooden_stick",
+    "magicmod:magic_latex_stick",
+    "magicmod:magic_rubber_stick",
+    "magicmod:magic_polymer_stick"
+  ]
+}

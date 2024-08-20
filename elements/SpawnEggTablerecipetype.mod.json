@@ -1,0 +1,37 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "spawn_egg_table_ui.png",
+    "width": 176,
+    "height": 82,
+    "icon": {
+      "value": "CUSTOM:SpawnEggTable"
+    },
+    "craftingtable": {
+      "value": ""
+    },
+    "enableCraftingtable": false,
+    "title": "Spawn Egg Table recipe type",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 20,
+        "y": 38,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 44,
+        "y": 38,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 133,
+        "y": 38,
+        "slotid": 0
+      }
+    ]
+  }
+}

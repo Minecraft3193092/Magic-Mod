@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "magicmod:magic_smart_storage",
+    "magicmod:magic_alloy_block",
+    "magicmod:magic_block",
+    "magicmod:magic_ore",
+    "magicmod:magic_stone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicmod:block/magiclog2",
+    "up": "magicmod:block/magiclog2",
+    "north": "magicmod:block/magiclog",
+    "east": "magicmod:block/magiclog",
+    "south": "magicmod:block/magiclog",
+    "west": "magicmod:block/magiclog",
+    "particle": "magicmod:block/magiclog2"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_polymer"
+    }
+  },
+  "result": {
+    "item": "magicmod:magic_polymer_stick",
+    "count": 8
+  }
+}

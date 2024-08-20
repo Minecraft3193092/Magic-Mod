@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_dust"
+    }
+  },
+  "result": {
+    "item": "magicmod:magic_sand",
+    "count": 1
+  }
+}

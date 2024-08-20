@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "magicmod:command_block_core",
+    "minecraft:command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:chain_command_block",
+    "minecraft:command_block_minecart"
+  ]
+}

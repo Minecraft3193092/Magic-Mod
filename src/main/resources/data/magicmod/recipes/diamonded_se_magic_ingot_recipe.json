@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "magicmod:se_magic_ingot"
+    }
+  },
+  "result": {
+    "item": "magicmod:diamondedsemagicingot",
+    "count": 1
+  }
+}

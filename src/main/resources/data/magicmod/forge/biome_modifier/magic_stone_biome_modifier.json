@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "magicmod:magic_1ew",
+  "features": "magicmod:magic_stone",
+  "step": "underground_ores"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "magicmod:magic_polymer"
+    },
+    "b": {
+      "item": "magicmod:magic_iron_ingot"
+    },
+    "c": {
+      "item": "magicmod:magic_brain"
+    }
+  },
+  "result": {
+    "item": "magicmod:command_block_core",
+    "count": 1
+  }
+}

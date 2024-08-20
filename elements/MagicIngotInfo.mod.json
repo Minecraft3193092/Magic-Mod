@@ -1,0 +1,23 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:MagicIngot"
+      },
+      {
+        "value": "CUSTOM:IronedMagicIngot"
+      },
+      {
+        "value": "CUSTOM:SeMagicIngot"
+      },
+      {
+        "value": "CUSTOM:Diamondedsemagicingot"
+      }
+    ],
+    "information": [
+      "An ingot based by magic, the ingot can make many magic items."
+    ]
+  }
+}

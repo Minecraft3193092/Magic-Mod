@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "magicmod:spawn_egg_table",
+    "magicmod:magic_crafting_table",
+    "magicmod:magic_button",
+    "magicmod:magic_pressure_plate",
+    "magicmod:magic_slab",
+    "magicmod:magic_stairs",
+    "magicmod:magic_planks",
+    "magicmod:magic_log",
+    "magicmod:magic_wood"
+  ]
+}

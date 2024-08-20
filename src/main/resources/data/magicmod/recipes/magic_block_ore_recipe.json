@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magicmod:magic_block"
+    }
+  ],
+  "result": {
+    "item": "magicmod:magic_ingot",
+    "count": 9
+  }
+}

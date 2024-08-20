@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 10,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "magicmod:magic_ingot"
+  },
+  "result": "magicmod:se_magic_ingot"
+}

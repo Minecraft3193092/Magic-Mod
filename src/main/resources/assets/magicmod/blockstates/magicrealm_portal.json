@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "magicmod:block/magicrealm_portal_ew"
+    },
+    "axis=x": {
+      "model": "magicmod:block/magicrealm_portal_ns"
+    }
+  }
+}

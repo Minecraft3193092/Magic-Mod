@@ -1,0 +1,147 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "Magic Plain",
+    "groundBlock": {
+      "value": "CUSTOM:MagicGrassBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:MagicDirt"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:MagicSand"
+    },
+    "grassColor": {
+      "value": -3342337,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -39322,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.underwater.exit"
+    },
+    "additionsSound": {
+      "value": "block.anvil.fall"
+    },
+    "music": {
+      "value": "ambient.soul_sand_valley.additions"
+    },
+    "moodSound": {
+      "value": "ambient.cave"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.02,
+      "max": 0.02
+    },
+    "genHumidity": {
+      "min": -0.02,
+      "max": 0.02
+    },
+    "genContinentalness": {
+      "min": 0.49,
+      "max": 0.53
+    },
+    "genErosion": {
+      "min": 0.78,
+      "max": 0.8200000000000001
+    },
+    "genWeirdness": {
+      "min": 0.5466149932751618,
+      "max": 0.5866149932751619
+    },
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "CUSTOM:MagicLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:MagicLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "ForestGrass",
+      "DefaultFlowers"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "MOUNTAIN",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAllay"
+        },
+        "minGroup": 7,
+        "maxGroup": 12,
+        "weight": 30,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityAllay"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityIronGolem"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}
